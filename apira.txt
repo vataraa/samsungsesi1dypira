@@ -1,0 +1,49 @@
+pertanyaan soal 
+1. apa perbedaan file system linux dan windows?
+jawab:  Windows menggunakan beberapa direktori "drive" (C:, D:, dll.) yang terpisah, sedangkan Linux memiliki satu hierarki tunggal yang dimulai dari root (/). Selain itu, Windows utamanya menggunakan NTFS dan FAT32, sementara Linux mendukung berbagai sistem berkas seperti ext2, ext3, ext4, dan XFS, dan case-sensitive dalam penamaan file yang tidak ada di Windows. 
+2. berikan gambar struktur file system linux dan windows?
+jawab: file system linux 
+
+
+
+
+ 
+file system windows 
+ 
+3. apa yang dimaksud direktori, folder, dan file?
+jawab: Direktori dan folder adalah wadah untuk menyimpan file, sementara file adalah unit dasar yang berisi data digital. File adalah dokumen seperti teks, gambar, atau video, dan folder (atau direktori) berfungsi seperti map untuk mengorganisir file-file tersebut agar lebih teratur. 
+4. sebutkan 5 file extension dan jelaskan!
+jawab: 
+DOCX Merupakan format file standar untuk dokumen yang dibuat dengan Microsoft Word versi 2007 ke atas. File ini dapat berisi teks, gambar, tabel, dan elemen lainnya dalam format yang terstruktur. 
+ Portable Document Format adalah format yang sering digunakan untuk berbagi dokumen agar tampilannya konsisten di berbagai sistem operasi dan perangkat. PDF bisa dibuka dengan berbagai pembaca PDF. 
+ Joint Photographic Experts Group, ini adalah format gambar yang umum digunakan untuk foto. Format ini mengompresi gambar untuk mengurangi ukuran file sambil tetap mempertahankan kualitas yang baik. 
+File MP3 menggunakan kompresi untuk mengurangi ukuran file audio tanpa mengurangi kualitas suara secara signifikan, sehingga lebih mudah disimpan dan dibagikan. 
+PPTX merupakan format file untuk presentasi yang dibuat dengan Microsoft PowerPoint. File ini berisi slide-slide yang dapat menampilkan teks, gambar, grafik, dan animasi, dan biasanya digunakan untuk presentasi di dunia kerja atau pendidikan. 
+5. sebutkan masing-masing 5 perintah mengakses file dilinux dan windows!
+jawab:
+ Linux
+Perintah-perintah ini digunakan di terminal Linux: 
+ls: Menampilkan daftar file dan direktori dalam direktori saat ini.
+Contoh: ls -l (untuk detail lebih lanjut).
+cd: Berpindah (mengubah directory) ke lokasi folder lain.
+Contoh: cd Documents (masuk ke folder Documents), cd .. (keluar ke folder induk).
+cat: Menampilkan seluruh isi file teks langsung di terminal.
+Contoh: cat filename.txt.
+cp: Menyalin (meng-copy) file atau direktori dari satu lokasi ke lokasi lain.
+Contoh: cp file.txt /path/to/destination.
+mv: Memindahkan (move) file atau mengganti nama file.
+Contoh: mv file.txt /path/to/newlocation atau mv oldname.txt newname.txt. 
+Windows (Command Prompt/CMD) 
+Perintah-perintah ini digunakan di Command Prompt Windows: 
+dir: Menampilkan daftar file dan subdirektori dalam direktori saat ini.
+Contoh: dir.
+cd: Berpindah (change directory) ke lokasi folder lain.
+Contoh: cd C:\Users\Username\Documents.
+type: Menampilkan isi file teks (mirip dengan cat di Linux).
+Contoh: type filename.txt.
+copy: Menyalin file dari satu lokasi ke lokasi lain.
+Contoh: copy file.txt C:\path\to\destination.
+move atau rename: Memindahkan file (move) atau mengganti nama file (rename).
+Contoh: move file.txt C:\path\to\newlocation atau rename oldname.txt newname.txt. 
+6. apa perbedaan terminal dan command crompt?
+jawab: Perbedaan utama adalah Terminal adalah aplikasi yang menampung shell, sedangkan Command Prompt adalah salah satu jenis shell (atau Command Line Interface / CLI) yang khusus untuk sistem operasi Windows
