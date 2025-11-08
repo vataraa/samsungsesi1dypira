@@ -1,0 +1,2 @@
+# samsungsesi1dypira
+assalamualaikum
